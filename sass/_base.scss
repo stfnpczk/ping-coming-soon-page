@@ -3,12 +3,16 @@
 /*----------------------------
  colors
 ----------------------------*/
-
+$blue: hsl(223, 87%, 63%);
+$pale-blue: hsl(223, 100%, 88%);
+$dark-blue: hsl(209, 33%, 12%);
+$gray: hsl(0, 0%, 59%);
+$red: hsl(354, 100%, 66%);
 
 /*----------------------------
 typography
 ----------------------------*/
-//CHANGE TO CHALLENGE TYPOGRAPHY
+
 body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
