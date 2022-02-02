@@ -412,7 +412,7 @@ body {
 @media only screen and (min-width: 1440px) {
   .page-wrapper {
     max-width: 640px;
-    margin: 80px 0;
+    margin: 86px 0;
   }
 }
 
@@ -442,7 +442,7 @@ body {
   line-height: 32px;
   font-weight: 400;
   color: #969696;
-  margin: 32px 0 15px;
+  margin: 47px 0 15px;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -468,6 +468,7 @@ body {
   .cta__text {
     font-size: 20px;
     line-height: 24.24px;
+    margin: 0 0 41px;
   }
 }
 
@@ -537,13 +538,13 @@ body {
   line-height: 16px;
   font-weight: 600;
   color: white;
-  padding: 12px;
+  padding: 11px;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta__button {
-    width: 43.38%;
+    width: 51.38%;
     font-size: 16px;
     line-height: 19.39px;
   }
@@ -586,7 +587,7 @@ body {
 
 @media only screen and (min-width: 1440px) {
   .hero-image {
-    margin: 94px 0 0;
+    margin: 85px 0 0;
   }
 }
 
@@ -620,7 +621,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 32px;
+  width: 31px;
   height: 31px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -629,7 +630,6 @@ body {
   color: #4f7df3;
   border: 1px solid #c2d3ff;
   border-radius: 50%;
-  padding: 2px;
 }
 
 .footer__icon:hover {
@@ -638,10 +638,21 @@ body {
   border: 1px solid #4f7df3;
 }
 
+.footer__icon--i {
+  font-size: 14px;
+}
+
 .footer__copyright {
   font-size: 10px;
   line-height: 12.12px;
   font-weight: 300;
   color: #969696;
   margin: 27px 0 0;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
