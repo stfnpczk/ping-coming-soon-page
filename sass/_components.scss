@@ -75,6 +75,7 @@ body {
     @media only screen and (min-width: 1440px) {
       flex-direction: row;
       gap: 16px;
+      position: relative;
     }
   }
 
@@ -116,6 +117,37 @@ body {
       line-height: 19.39px;
     }
   }
+
+  &__button:hover {
+    background-color: hsla(223, 87%, 63%, 0.77) ;
+  }
+
+  // error styling
+  &__error-message {
+    display: none;
+  }
+
+    &__input.error ~ &__error-message {
+      display: block;
+      text-align: center;
+      font-size: 10px;
+      line-height: 20px;
+      font-weight: 400;
+      letter-spacing: 0.13px;
+      font-style: italic;
+      color: $red;
+      
+      @media only screen and (min-width: 1440px) {
+        position: absolute;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        top: 65px;
+        left: 30px;
+      }
+    }
+
+    
 }
 
 .hero-image {
@@ -154,6 +186,12 @@ body {
     border: 1px solid $pale-blue;
     border-radius: 50%;
     padding: 2px;
+  }
+
+  &__icon:hover {
+    background-color: $blue;
+    color: white;
+    border: 1px solid $blue;
   }
 
   &__copyright {

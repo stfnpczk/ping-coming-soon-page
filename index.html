@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://kit.fontawesome.com/2b4ecf7295.js" crossorigin="anonymous"></script>
+    <script src="./main.js" defer></script>
   </head>
   
   <body>
@@ -29,8 +30,9 @@
         <div class="cta">
         <h1 class="cta__heading ">We are launching <span> soon!</span></h1>
         <h2 class="cta__text">Subscribe and get notified</h2>
-        <form class="cta__form" action="#">
-          <input class="cta__input" type="email" placeholder="Your email address... ">
+        <form class="cta__form" id="form" action="#" novalidate >
+          <input class="cta__input" id="input" type="email" placeholder="Your email address... ">
+          <p class="cta__error-message" id="error"></p>
           <button class="cta__button" type="submit">Notify Me</button>
         </form>
       </div>
