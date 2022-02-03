@@ -120,7 +120,7 @@ body {
   }
 
   &__button:hover {
-    background-color: hsla(223, 87%, 63%, 0.77) ;
+    background-color: hsla(223, 87%, 63%, 0.77);
   }
 
   // error styling
@@ -128,28 +128,30 @@ body {
     display: none;
   }
 
-    &__input.error ~ &__error-message {
-      display: block;
-      text-align: center;
-      font-size: 0.625rem;
-      line-height: 1.25rem;
-      font-weight: 400;
-      letter-spacing: 0.0081rem;
-      font-style: italic;
-      color: $red;
-      
-      @media only screen and (min-width: 1440px) {
-        position: absolute;
-        font-size: 0.75rem;
-        line-height: 1.25rem;
-        letter-spacing: 0.0094rem;
-        top: 4.0625rem;
-        left: 1.875rem;
-      }
-    }
+  &__input.error ~ &__error-message {
+    display: block;
+    text-align: center;
+    font-size: 0.625rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    letter-spacing: 0.0081rem;
+    font-style: italic;
+    color: $red;
 
-    
+    @media only screen and (min-width: 1440px) {
+      position: absolute;
+      font-size: 0.75rem;
+      line-height: 1.25rem;
+      letter-spacing: 0.0094rem;
+      top: 4.0625rem;
+      left: 1.875rem;
+    }
+  }
 }
+
+/*----------------------------
+      hero image section
+----------------------------*/
 
 .hero-image {
   width: 100%;
@@ -176,7 +178,7 @@ body {
     gap: 0.7319rem;
   }
 
-  &__icon {
+  &__link {
     display: flex;
     justify-content: center;
     width: 1.9375rem;
@@ -184,17 +186,17 @@ body {
     align-items: center;
     text-decoration: none;
     color: $blue;
-    border: 0.0625rem solid $hsla(223, 87%, 63%, 0.15);
+    border: 0.0625rem solid hsla(223, 87%, 63%, 0.15);
     border-radius: 50%;
   }
 
-  &__icon:hover {
+  &__link:hover {
     background-color: $blue;
     color: white;
     border: 0.0625rem solid $blue;
   }
 
-  &__icon--i {
+  &__icon {
     font-size: 0.875rem;
   }
 
@@ -205,10 +207,9 @@ body {
     color: $gray;
     margin: 1.625rem 0 0;
 
-  @media only screen and (min-width: 1440px) {
-  font-size: 0.75rem;
-  line-height: 0.9375rem;
+    @media only screen and (min-width: 1440px) {
+      font-size: 0.75rem;
+      line-height: 0.9375rem;
+    }
   }
-  }
-
 }

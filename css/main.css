@@ -368,7 +368,7 @@ typography
 ----------------------------*/
 body {
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -402,17 +402,17 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 84px 28px 37px;
+  margin: 5.25rem 1.75rem 2.3125rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 550px;
+  max-width: 34.375rem;
 }
 
 @media only screen and (min-width: 1440px) {
   .page-wrapper {
-    max-width: 640px;
-    margin: 86px 0;
+    max-width: 40rem;
+    margin: 5.375rem 0;
   }
 }
 
@@ -428,27 +428,27 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  padding: 0 28px;
+  padding: 0 1.75rem;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta {
-    padding: 0 2px;
+    padding: 0 0.125rem;
   }
 }
 
 .cta__heading {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem;
   font-weight: 400;
   color: #969696;
-  margin: 47px 0 15px;
+  margin: 2.9375rem 0 0.9375rem;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta__heading {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 }
 
@@ -458,17 +458,17 @@ body {
 }
 
 .cta__text {
-  font-size: 12px;
-  line-height: 14.54px;
+  font-size: 0.75rem;
+  line-height: 0.9087rem;
   color: #151f29;
-  margin: 0 0 32px;
+  margin: 0 0 2rem;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta__text {
-    font-size: 20px;
-    line-height: 24.24px;
-    margin: 0 0 41px;
+    font-size: 1.25rem;
+    line-height: 1.515rem;
+    margin: 0 0 2.5625rem;
   }
 }
 
@@ -480,7 +480,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -489,26 +489,26 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    gap: 16px;
+    gap: 1rem;
     position: relative;
   }
 }
 
 .cta__input {
-  border: 1px solid #c2d3ff;
-  border-radius: 28px;
-  font-size: 12px;
-  line-height: 20px;
+  border: 0.0625rem solid #c2d3ff;
+  border-radius: 1.75rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
   font-weight: 300;
-  padding: 10px 32px;
+  padding: 0.625rem 2rem;
   color: #bac9ed;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta__input {
     width: 100%;
-    font-size: 16px;
-    padding: 18px 30px;
+    font-size: 1rem;
+    padding: 1.125rem 1.875rem;
   }
 }
 
@@ -530,23 +530,23 @@ body {
 
 .cta__button {
   background-color: #4f7df3;
-  border-radius: 28px;
+  border-radius: 1.75rem;
   border: none;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
-          box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.230414);
-  font-size: 12px;
-  line-height: 16px;
+  -webkit-box-shadow: 0rem 0.3125rem 0.625rem 0.125rem rgba(76, 123, 243, 0.230414);
+          box-shadow: 0rem 0.3125rem 0.625rem 0.125rem rgba(76, 123, 243, 0.230414);
+  font-size: 0.75rem;
+  line-height: 1rem;
   font-weight: 600;
   color: white;
-  padding: 11px;
+  padding: 0.6875rem;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 1440px) {
   .cta__button {
     width: 51.38%;
-    font-size: 16px;
-    line-height: 19.39px;
+    font-size: 1rem;
+    line-height: 1.2119rem;
   }
 }
 
@@ -561,10 +561,10 @@ body {
 .cta__input.error ~ .cta__error-message {
   display: block;
   text-align: center;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
   font-weight: 400;
-  letter-spacing: 0.13px;
+  letter-spacing: 0.0081rem;
   font-style: italic;
   color: #ff5263;
 }
@@ -572,22 +572,25 @@ body {
 @media only screen and (min-width: 1440px) {
   .cta__input.error ~ .cta__error-message {
     position: absolute;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.15px;
-    top: 65px;
-    left: 30px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.0094rem;
+    top: 4.0625rem;
+    left: 1.875rem;
   }
 }
 
+/*----------------------------
+      hero image section
+----------------------------*/
 .hero-image {
   width: 100%;
-  margin: 71px 0 0;
+  margin: 4.4375rem 0 0;
 }
 
 @media only screen and (min-width: 1440px) {
   .hero-image {
-    margin: 85px 0 0;
+    margin: 5.3125rem 0 0;
   }
 }
 
@@ -595,12 +598,12 @@ body {
       footer section 
 ----------------------------*/
 .footer {
-  margin: 121px 0 0;
+  margin: 7.5625rem 0 0;
 }
 
 @media only screen and (min-width: 1440px) {
   .footer {
-    margin: 72px 0 0;
+    margin: 4.25rem 0 0;
   }
 }
 
@@ -611,48 +614,48 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 11.71px;
+  gap: 0.7319rem;
 }
 
-.footer__icon {
+.footer__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 31px;
-  height: 31px;
+  width: 1.9375rem;
+  height: 1.9375rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
   color: #4f7df3;
-  border: 1px solid #c2d3ff;
+  border: 0.0625rem solid rgba(79, 125, 243, 0.15);
   border-radius: 50%;
 }
 
-.footer__icon:hover {
+.footer__link:hover {
   background-color: #4f7df3;
   color: white;
-  border: 1px solid #4f7df3;
+  border: 0.0625rem solid #4f7df3;
 }
 
-.footer__icon--i {
-  font-size: 14px;
+.footer__icon {
+  font-size: 0.875rem;
 }
 
 .footer__copyright {
-  font-size: 10px;
-  line-height: 12.12px;
+  font-size: 0.625rem;
+  line-height: 0.7575rem;
   font-weight: 300;
   color: #969696;
-  margin: 27px 0 0;
+  margin: 1.625rem 0 0;
 }
 
 @media only screen and (min-width: 1440px) {
   .footer__copyright {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75rem;
+    line-height: 0.9375rem;
   }
 }
